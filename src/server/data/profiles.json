@@ -1,0 +1,32 @@
+[
+  {
+    "username": "3599307",
+    "playlists": []
+  },
+  {
+    "username": "-147178873",
+    "playlists": [
+      {
+        "name": "favorites",
+        "songs": []
+      },
+      {
+        "name": "recent",
+        "songs": []
+      }
+    ]
+  },
+  {
+    "username": "3599307",
+    "playlists": [
+      {
+        "name": "favorites",
+        "songs": []
+      },
+      {
+        "name": "recent",
+        "songs": []
+      }
+    ]
+  }
+]

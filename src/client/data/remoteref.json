@@ -1,0 +1,62 @@
+[
+  {
+    "methodName": "createUser",
+    "objectName": "AccountServices",
+    "params": ["username"],
+    "semantic": "at most one"
+  },
+  {
+    "methodName": "login",
+    "objectName": "AccountServices",
+    "params": ["username"],
+    "semantic": "at least one"
+  },
+  {
+    "methodName": "search",
+    "objectName": "SearchServices",
+    "params": ["text", "option"],
+    "semantic": "at most one"
+  },
+  {
+    "methodName": "createPlaylist",
+    "objectName": "PlaylistServices",
+    "params": ["username", "playlistName"],
+    "semantic": "at most one"
+  },
+  {
+    "methodName": "getFileSize",
+    "objectName": "SongServices",
+    "params": ["key"],
+    "semantic": "at least one"
+  },
+  {
+    "methodName": "getSongChunk",
+    "objectName": "SongServices",
+    "params": ["key", "fragment"],
+    "semantic": "at least one"
+  },
+  {
+    "methodName": "deletePlaylist",
+    "objectName": "PlaylistServices",
+    "params": ["username", "playlistName"],
+    "semantic": "maybe"
+  },
+  {
+    "methodName": "addSongToPlaylist",
+    "objectName": "PlaylistServices",
+    "params": ["username", "playlistName", "songId", "songTitle"],
+    "semantic": "at least one"
+  },
+  {
+    "methodName": "deleteSongFromPlaylist",
+    "objectName": "PlaylistServices",
+    "params": ["username", "playlistName", "songId"],
+    "semantic": "at least one"
+  },
+  {
+    "methodName": "loadPlaylists",
+    "objectName": "PlaylistServices",
+    "params": ["username"],
+    "semantic": "at least one"
+  }
+]
